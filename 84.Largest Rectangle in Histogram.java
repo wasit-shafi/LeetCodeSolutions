@@ -2,8 +2,7 @@
  *  @author WasitShafi
  *  @since 21-AUG-20
  */
-// Using stack based approach time complexity will be O(N)
-// URL : https://leetcode.com/problems/largest-rectangle-in-histogram
+ 
 class Solution { // Time Complexity O(N^2)
     public int largestRectangleArea(int[] heights) {
       int max = 0;

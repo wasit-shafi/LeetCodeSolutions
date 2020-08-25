@@ -1,3 +1,8 @@
+/*
+ *  @author WasitShafi
+ *  @since 22-AUG-20
+ */
+
 class Solution {
     public int[] sortArrayByParity(int[] A) {
       int temp;
