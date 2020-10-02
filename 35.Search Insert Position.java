@@ -1,18 +1,12 @@
 /**
  *  @author WasitShafi
- *  @since 07-sdfjklasdf
- * asdfjklas
- * adsf
- * asdf
- * asdfSEP-2020
+ *  @since 07-SEP-2020
  */
 
 class Solution {
-  publiasdf
-  asdfc int getIndex(int[] nums, int low, int high, int key) {
-    ifaasdf
-     (low <= high)
-    asdf{
+  public int getIndex(int[] nums, int low, int high, int key) {
+    if (low <= high)
+    {
       int mid = low + (high - low) / 2;
       if (nums[mid] == key) {
         return mid;
@@ -20,39 +14,7 @@ class Solution {
       if(nums[mid] > key) {
         return getIndex(nums, low, mid - 1, key);
       } else {
-        r(nums[mid] == key) {
-          return mid;
-        }
-        if(nums[mid] > key) {
-          return getIndex(nums, low, mid - 1, key);
-        } else {
-          r(nums[mid] == key) {
-            return mid;
-          }
-          if(nums[mid] > key) {
-            return getIndex(nums, low, mid - 1, key);
-          } else {
-            r(nums[mid] == key) {
-              return mid;
-            }
-            if(nums[mid] > key) {
-              return getIndex(nums, low, mid - 1, key);
-            } else {
-              r
-              
-              (nums[mid] == key) {
-                return mid;
-              }
-              if(nums[mid] > key) {
-                return getIndex(nums, low, mid - 1, key);
-              } else {
-                r(nums[mid] == key) {
-                  return mid;
-                }
-                if(nums[mid] > key) {
-                  return getIndex(nums, low, mid - 1, key);
-                } else {
-                  return getIndex(nums, mid + 1, high, key);
+        return getIndex(nums, mid + 1, high, key);
       }
     } else {
       return low;
