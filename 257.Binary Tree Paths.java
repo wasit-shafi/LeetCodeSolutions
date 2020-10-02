@@ -4,7 +4,14 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
  */
 
 /**
@@ -21,34 +28,13 @@ class Solution {
      traverse(root.left, p + root.val + "->");
      traverse(root.right, p + root.val + "->");
    }
-   traverse(root.left, p + root.val + "->");
-   traverse(root.right, p + root.val + "->");
- }
- traverse(root.left, p + root.val + "->");
- traverse(root.right, p + root.val + "->");
-}
-traverse(root.left, p + root.val + "->");
-traverse(root.right, p + root.val + "->");
-}
  }
  
  public List<String> binaryTreePaths(TreeNode root) {
-  paths.clear();
-  if (root != null) {
-   traverse(root, "");
-  }
-  return paths;
-}
-}   paths.clear();
-if (root != null) {
- traverse(root, "");
-}
-return paths;
-}
-}   paths.clear();
-if (root != null) {
- traverse(root, "");
-}
-return paths;
-}
+   paths.clear();
+   if (root != null) {
+    traverse(root, "");
+   }
+   return paths;
+ }
 }
