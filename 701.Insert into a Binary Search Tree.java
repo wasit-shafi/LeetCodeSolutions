@@ -15,22 +15,17 @@
  */
 /**
  *  @author WasitShafi
- *  @since 22-SEP-2020
+ *  @since 16-OCT-2020
  */
-
 class Solution {
-  static ArrayList<Integer> arr = new ArrayList<>();
-  public void traverse(TreeNode root) {
-    if(root != null) {
-      arr.add(root.val);
-      traverse(root.left);
-      traverse(root.right);
+  public TreeNode insertIntoBST(TreeNode root, int val) {
+    if (root == null) {
+      return new TreeNode(val);
+    } else if (root.val > val) {
+      root.left = insertIntoBST(root.left, val);
+    } else {
+      root.right = insertIntoBST(root.right, val);
     }
-  }
-  
-  public List<Integer> preorderTraversal(TreeNode root) {
-    arr.clear();
-    traverse(root);
-    return arr;
+    return root;
   }
 }

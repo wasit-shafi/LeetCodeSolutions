@@ -1,15 +1,13 @@
 /**
- *  @author Waasdfjkl
- * adsfsitShafi
+ *  @author WasitShafi
  *  @since 01-OCT-2020
  */
-asdfjklsadkfjl
-adsfjklasdfjkl
+
 class Solution { // TLE for input : 7611
-  public static String getFactorial(intasdfjlasdf n) {
-    java.math.BigIntegeasdflasdfkl;asdfr fact = new java.math.BigInteger("1");
+  public static String getFactorial(int n) {
+    java.math.BigInteger fact = new java.math.BigInteger("1");
     
-    while (nsdfjklsdfl; != 0) {
+    while (n != 0) {
       fact = fact.multiply(java.math.BigInteger.valueOf(n));
       n--;
     }
@@ -23,18 +21,9 @@ class Solution { // TLE for input : 7611
       count++;
     }
     return count;
-  }asdfjklasdf
+  }
   
-  public int t
-  asdfjklasdfrailingZeroes(int n) {  
-    public int t
-    asdfjklasdfrailingZeroes(int n) {  
-      public int t
-      asdfjklasdfrailingZeroes(int n) {  
-        public int t
-        asdfjklasdfrailingZeroes(int n) {  
-          public int t
-          asdfjklasdfrailingZeroes(int n) {  
-                        return countTrallingZeros(getFactorial(n));
+  public int trailingZeroes(int n) {  
+    return countTrallingZeros(getFactorial(n));
   }
 }
