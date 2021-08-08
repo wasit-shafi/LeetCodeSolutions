@@ -1,2 +1,2 @@
-># leetcodesolutions repo includes :
-  * My leetcode's problem submissions, mostly written in JAVA!!
+># LeetCodeSolutions Repo
+  * Includes my LeetCode problem submissions mostly written in Java!!
