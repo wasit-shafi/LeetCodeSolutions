@@ -24,8 +24,6 @@
 # Logs and databases #
 ######################
 *.log
-*.sql
-*.sqlite
 
 # OS generated files #
 ######################
@@ -41,8 +39,6 @@ Thumbs.db
 **node_modules
 yarn.lock**node_modules
 *.iml
-*.log
-*.log*
 *.pyc
 *.sublime-project
 *.sublime-workspace
@@ -51,7 +47,6 @@ yarn.lock**node_modules
 *.tgz
 *~
 .DS_STORE
-.DS_Store
 .eslintcache
 .flowconfig
 .grunt
