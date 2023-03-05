@@ -2,8 +2,7 @@
  * @author WasitShafi
  * @since 04-MAR-2023
  */
-// URL:
-// https://leetcode.com/contest/biweekly-contest-99/problems/split-with-minimum-sum/
+// URL: https://leetcode.com/contest/biweekly-contest-99/problems/split-with-minimum-sum
 class Solution {
   public int splitNum(int num) {
     int num1 = 0;
