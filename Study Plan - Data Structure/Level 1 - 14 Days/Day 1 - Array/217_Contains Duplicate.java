@@ -1,8 +1,11 @@
+
+// URL: https://leetcode.com/problems/contains-duplicate/?envType=study-plan&id=data-structure-i
 /**
  * @author WasitShafi
  * @since 26-NOV-2022
  */
-// Question:https://leetcode.com/problems/contains-duplicate/?envType=study-plan&id=data-structure-i
+import java.util.Set;
+import java.util.HashSet;
 
 class Solution {
   public boolean containsDuplicate(int[] nums) {
