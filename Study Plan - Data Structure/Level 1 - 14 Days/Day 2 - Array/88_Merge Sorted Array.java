@@ -1,8 +1,8 @@
+// URL: https://leetcode.com/problems/merge-sorted-array/?envType=study-plan&id=data-structure-i
 /**
  * @author WasitShafi
  * @since 27-NOV-2022
  */
-// Question:https://leetcode.com/problems/merge-sorted-array/?envType=study-plan&id=data-structure-i
 class Solution {
   public void merge(int[] nums1, int m, int[] nums2, int n) {
     int num1Left = m - 1, num1Right = m + n - 1, num2Right = n - 1;

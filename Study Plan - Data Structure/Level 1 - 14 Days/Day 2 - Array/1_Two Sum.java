@@ -1,8 +1,8 @@
+// URL:https://leetcode.com/problems/two-sum/?envType=study-plan&id=data-structure-i
 /**
  * @author WasitShafi
  * @since 27-NOV-2022
  */
-// Question:https://leetcode.com/problems/two-sum/?envType=study-plan&id=data-structure-i
 
 class Solution {
   public int[] twoSum(int[] nums, int target) {
